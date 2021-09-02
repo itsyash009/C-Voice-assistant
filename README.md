@@ -9,7 +9,7 @@ string command = "espeak \"" + phrase + "\"";
 const char *charCommand = command.c_str();
 system(charCommand);
 
-To open any file format in the system, then command is:
+To open any file format in the system, the command is:
 ShellExecute(NULL,"open","file path",NULL, NULL, SW_NORMAL);
 
 To open a browser:
